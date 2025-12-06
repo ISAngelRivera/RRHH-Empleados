@@ -1,0 +1,155 @@
+{
+  "type": "api",
+  "version": "v4.5.0",
+  "data": {
+    "id": "28eb4e2b-026e-429a-a3c2-c7df4595b81c",
+    "name": "AttendanceAPI",
+    "context": "/attendance",
+    "version": "1.1.1",
+    "provider": "admin",
+    "lifeCycleStatus": "PUBLISHED",
+    "responseCachingEnabled": false,
+    "cacheTimeout": 300,
+    "hasThumbnail": false,
+    "isDefaultVersion": false,
+    "isRevision": false,
+    "revisionId": 0,
+    "enableSchemaValidation": false,
+    "enableSubscriberVerification": false,
+    "type": "HTTP",
+    "audiences": [
+      "all"
+    ],
+    "transport": [
+      "http",
+      "https"
+    ],
+    "tags": [],
+    "policies": [
+      "Unlimited"
+    ],
+    "organizationPolicies": [],
+    "authorizationHeader": "Authorization",
+    "apiKeyHeader": "ApiKey",
+    "securityScheme": [
+      "oauth_basic_auth_api_key_mandatory",
+      "oauth2"
+    ],
+    "visibility": "PUBLIC",
+    "visibleRoles": [],
+    "visibleTenants": [],
+    "visibleOrganizations": [
+      "none"
+    ],
+    "mediationPolicies": [],
+    "subscriptionAvailability": "CURRENT_TENANT",
+    "subscriptionAvailableTenants": [],
+    "additionalProperties": [
+      {
+        "name": "subdominio",
+        "value": "rrhh-empleados",
+        "display": true
+      }
+    ],
+    "additionalPropertiesMap": {
+      "subdominio__display": {
+        "name": "subdominio",
+        "value": "rrhh-empleados",
+        "display": false
+      }
+    },
+    "accessControl": "NONE",
+    "accessControlRoles": [],
+    "businessInformation": {},
+    "corsConfiguration": {
+      "corsConfigurationEnabled": false,
+      "accessControlAllowOrigins": [
+        "*"
+      ],
+      "accessControlAllowCredentials": false,
+      "accessControlAllowHeaders": [
+        "authorization",
+        "Access-Control-Allow-Origin",
+        "Content-Type",
+        "SOAPAction",
+        "apikey",
+        "Internal-Key"
+      ],
+      "accessControlAllowMethods": [
+        "GET",
+        "PUT",
+        "POST",
+        "DELETE",
+        "PATCH",
+        "OPTIONS"
+      ]
+    },
+    "websubSubscriptionConfiguration": {
+      "enable": false,
+      "secret": "",
+      "signingAlgorithm": "SHA1",
+      "signatureHeader": "x-hub-signature"
+    },
+    "createdTime": "1765064537493",
+    "lastUpdatedTimestamp": "1765064549579",
+    "lastUpdatedTime": "2025-12-07 00:42:29.579",
+    "endpointConfig": {
+      "endpoint_type": "http",
+      "sandbox_endpoints": {
+        "url": "https://run.mocky.io/v3/82350333e3c47af31658953b5f029143"
+      },
+      "production_endpoints": {
+        "url": "https://run.mocky.io/v3/01d09cbf93418945d5eabaf3caf38e06"
+      }
+    },
+    "endpointImplementationType": "ENDPOINT",
+    "subtypeConfiguration": {
+      "subtype": "DEFAULT"
+    },
+    "scopes": [],
+    "operations": [
+      {
+        "id": "",
+        "target": "/*",
+        "verb": "GET",
+        "authType": "Application \u0026 Application User",
+        "throttlingPolicy": "Unlimited",
+        "scopes": [],
+        "usedProductIds": [],
+        "operationPolicies": {
+          "request": [],
+          "response": [],
+          "fault": []
+        }
+      },
+      {
+        "id": "",
+        "target": "/*",
+        "verb": "POST",
+        "authType": "Application \u0026 Application User",
+        "throttlingPolicy": "Unlimited",
+        "scopes": [],
+        "usedProductIds": [],
+        "operationPolicies": {
+          "request": [],
+          "response": [],
+          "fault": []
+        }
+      }
+    ],
+    "categories": [],
+    "keyManagers": [
+      "all"
+    ],
+    "advertiseInfo": {
+      "advertised": false,
+      "apiOwner": "admin",
+      "vendor": "WSO2"
+    },
+    "gatewayVendor": "wso2",
+    "gatewayType": "wso2/synapse",
+    "asyncTransportProtocols": [],
+    "egress": false,
+    "organizationId": "carbon.super"
+  }
+}
