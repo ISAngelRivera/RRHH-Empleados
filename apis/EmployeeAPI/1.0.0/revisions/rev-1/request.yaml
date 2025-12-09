@@ -1,0 +1,11 @@
+revision_id: rev-1
+timestamp: 2025-12-09T10:39:44Z
+subdominio: rrhh-empleados
+helix_crq: CRQ-20251209103738
+helix_status: APPROVED
+request_id: REQ-empl-1765276627-v5
+api:
+  name: EmployeeAPI
+  version: 1.0.0
+user: admin
+approval_workflow: https://github.com/ISAngelRivera/GIT-Helix-Processor/actions/runs/20060548225
