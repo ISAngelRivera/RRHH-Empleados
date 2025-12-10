@@ -1,7 +1,0 @@
-deploy:
-  import:
-    preserveProvider: true
-    rotateRevision: false
-    update: true
-name: AttendanceAPI
-version: 1.0.0
