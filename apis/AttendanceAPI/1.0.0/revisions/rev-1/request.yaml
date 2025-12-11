@@ -1,11 +1,11 @@
 revision_id: rev-1
-timestamp: 2025-12-11T09:05:48Z
+timestamp: 2025-12-11T10:21:53Z
 subdominio: rrhh-empleados
-helix_crq: CRQ-20251211090535
+helix_crq: CRQ-20251211102140
 helix_status: APPROVED
-request_id: REQ-ee2d7589-mj0957ex-8k53
+request_id: REQ-cada8a8c-mj1afzyr-at64
 api:
   name: AttendanceAPI
   version: 1.0.0
-user: admin@carbon.super
-approval_workflow: https://github.com/ISAngelRivera/GIT-Helix-Processor/actions/runs/20127678394
+user: dev1@carbon.super
+approval_workflow: https://github.com/ISAngelRivera/GIT-Helix-Processor/actions/runs/20129788482
