@@ -69,11 +69,11 @@
     "accessControlAllowMethods" : [ "GET", "PUT", "POST", "DELETE", "PATCH", "OPTIONS" ]
   },
   "x-wso2-production-endpoints" : {
-    "urls" : [ "https://run.mocky.io/v3/4b70d696cc2db33f73637cfd30304117" ],
+    "urls" : [ "https://run.mocky.io/v3/1285bb7a301ecb0ca1384a7a7259bca2" ],
     "type" : "http"
   },
   "x-wso2-sandbox-endpoints" : {
-    "urls" : [ "https://run.mocky.io/v3/6834f2253e61fceb9aa51698c42cf377" ],
+    "urls" : [ "https://run.mocky.io/v3/ef95620902687b25b638f799ff1f90f4" ],
     "type" : "http"
   },
   "x-wso2-basePath" : "/attendance/1.0.0",

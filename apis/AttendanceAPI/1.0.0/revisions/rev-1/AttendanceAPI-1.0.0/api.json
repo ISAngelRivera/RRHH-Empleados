@@ -2,7 +2,7 @@
   "type": "api",
   "version": "v4.5.0",
   "data": {
-    "id": "ee2d7589-6f61-44f8-a513-220e06e0ba9d",
+    "id": "cada8a8c-1c0c-45c3-a943-a56de14dec6d",
     "name": "AttendanceAPI",
     "context": "/attendance",
     "version": "1.0.0",
@@ -90,16 +90,16 @@
       "signingAlgorithm": "SHA1",
       "signatureHeader": "x-hub-signature"
     },
-    "createdTime": "1765358280241",
-    "lastUpdatedTimestamp": "1765358280436",
-    "lastUpdatedTime": "2025-12-10 10:18:00.436",
+    "createdTime": "1765447226088",
+    "lastUpdatedTimestamp": "1765447226313",
+    "lastUpdatedTime": "2025-12-11 11:00:26.313",
     "endpointConfig": {
       "endpoint_type": "http",
       "sandbox_endpoints": {
-        "url": "https://run.mocky.io/v3/6834f2253e61fceb9aa51698c42cf377"
+        "url": "https://run.mocky.io/v3/ef95620902687b25b638f799ff1f90f4"
       },
       "production_endpoints": {
-        "url": "https://run.mocky.io/v3/4b70d696cc2db33f73637cfd30304117"
+        "url": "https://run.mocky.io/v3/1285bb7a301ecb0ca1384a7a7259bca2"
       }
     },
     "endpointImplementationType": "ENDPOINT",
