@@ -1,4 +1,4 @@
-# RRHH-Empleados
+# apim-domain-rrhh
 
 Repositorio Git para almacenamiento de APIs del dominio **RRHH / Empleados**.
 
@@ -9,7 +9,7 @@ Este repositorio almacena las definiciones de APIs que pertenecen al subdominio 
 ## Estructura
 
 ```
-RRHH-Empleados/
+apim-domain-rrhh/
 ├── apis/
 │   └── {APIName}/
 │       └── {Version}/
